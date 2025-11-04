@@ -87,7 +87,7 @@
   <main class="main">
     <div class="content">
       <div v-if="loadingList" class="loading">Loading recipes...</div>
-      <div v-else-if="recipeFiles.length === 0" class="empty">There is no studying advice in the <code>recipes</code> folder.</div>
+      <div v-else-if="recipeFiles.length === 0" class="empty">There is no studying advice in the folder.</div>
 
       <article v-if="!loadingList && recipeFiles.length" class="markdown-body">
         <div v-if="loadingRecipe" class="loading">Loading recipe <code>{{ selectedName }}</code>…</div>
